@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "building",
+	"version": "${version}",
+	"name": "Dusty's Building+",
+	"description": "Adds more building blocks, such as slabs, stairs, and walls!",
+	"authors": [
+		"DustyStarrz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/building/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dusty.building.DustysBuilding"
+		],
+		"client": [
+			"dusty.building.DustysBuildingClient"
+		],
+		"fabric-datagen": [
+			"dusty.building.DustysBuildingDataGenerator"
+		]
+	},
+	"mixins": [
+		"building.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
