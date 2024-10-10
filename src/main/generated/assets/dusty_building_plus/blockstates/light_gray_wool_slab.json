@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dusty_building_plus:block/light_gray_wool_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/light_gray_wool"
+    },
+    "type=top": {
+      "model": "dusty_building_plus:block/light_gray_wool_slab_top"
+    }
+  }
+}
