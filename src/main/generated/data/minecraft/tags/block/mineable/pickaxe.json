@@ -2,6 +2,23 @@
   "values": [
     "dusty_building_plus:calcite_wall",
     "dusty_building_plus:calcite_slab",
-    "dusty_building_plus:calcite_stairs"
+    "dusty_building_plus:calcite_stairs",
+    "dusty_building_plus:terracotta_stairs",
+    "dusty_building_plus:red_terracotta_stairs",
+    "dusty_building_plus:orange_terracotta_stairs",
+    "dusty_building_plus:yellow_terracotta_stairs",
+    "dusty_building_plus:lime_terracotta_stairs",
+    "dusty_building_plus:green_terracotta_stairs",
+    "dusty_building_plus:cyan_terracotta_stairs",
+    "dusty_building_plus:light_blue_terracotta_stairs",
+    "dusty_building_plus:blue_terracotta_stairs",
+    "dusty_building_plus:purple_terracotta_stairs",
+    "dusty_building_plus:magenta_terracotta_stairs",
+    "dusty_building_plus:pink_terracotta_stairs",
+    "dusty_building_plus:white_terracotta_stairs",
+    "dusty_building_plus:light_gray_terracotta_stairs",
+    "dusty_building_plus:gray_terracotta_stairs",
+    "dusty_building_plus:black_terracotta_stairs",
+    "dusty_building_plus:brown_terracotta_stairs"
   ]
 }
