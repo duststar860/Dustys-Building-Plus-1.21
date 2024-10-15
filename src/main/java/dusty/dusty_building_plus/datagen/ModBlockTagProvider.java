@@ -26,7 +26,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.CALCITE_STAIRS)
 
-                .add(ModBlocks.RED_WOOL_STAIRS);
+                .add(ModBlocks.RED_WOOL_STAIRS)
+                .add(ModBlocks.ORANGE_WOOL_STAIRS)
+                .add(ModBlocks.YELLOW_WOOL_STAIRS)
+                .add(ModBlocks.LIME_WOOL_STAIRS)
+                .add(ModBlocks.GREEN_WOOL_STAIRS)
+                .add(ModBlocks.CYAN_WOOL_STAIRS)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_STAIRS)
+                .add(ModBlocks.BLUE_WOOL_STAIRS)
+                .add(ModBlocks.PURPLE_WOOL_STAIRS)
+                .add(ModBlocks.MAGENTA_WOOL_STAIRS)
+                .add(ModBlocks.PINK_WOOL_STAIRS)
+                .add(ModBlocks.WHITE_WOOL_STAIRS)
+                .add(ModBlocks.LIGHT_GRAY_WOOL_STAIRS)
+                .add(ModBlocks.GRAY_WOOL_STAIRS)
+                .add(ModBlocks.BLACK_WOOL_STAIRS)
+                .add(ModBlocks.BROWN_WOOL_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.CALCITE_SLAB)
