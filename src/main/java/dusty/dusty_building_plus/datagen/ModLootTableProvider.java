@@ -50,6 +50,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLACK_WOOL_STAIRS);
         addDrop(ModBlocks.BROWN_WOOL_SLAB, slabDrops(ModBlocks.BROWN_WOOL_SLAB));
         addDrop(ModBlocks.BROWN_WOOL_STAIRS);
+
+        addDrop(ModBlocks.TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.RED_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.LIME_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.PINK_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+        addDrop(ModBlocks.BROWN_TERRACOTTA_STAIRS);
     }
 }
 

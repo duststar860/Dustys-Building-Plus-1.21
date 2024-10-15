@@ -18,7 +18,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CALCITE_WALL)
                 .add(ModBlocks.CALCITE_SLAB)
-                .add(ModBlocks.CALCITE_STAIRS);
+                .add(ModBlocks.CALCITE_STAIRS)
+
+                .add(ModBlocks.TERRACOTTA_STAIRS)
+                .add(ModBlocks.RED_TERRACOTTA_STAIRS)
+                .add(ModBlocks.ORANGE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.YELLOW_TERRACOTTA_STAIRS)
+                .add(ModBlocks.LIME_TERRACOTTA_STAIRS)
+                .add(ModBlocks.GREEN_TERRACOTTA_STAIRS)
+                .add(ModBlocks.CYAN_TERRACOTTA_STAIRS)
+                .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.BLUE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.PURPLE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS)
+                .add(ModBlocks.PINK_TERRACOTTA_STAIRS)
+                .add(ModBlocks.WHITE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS)
+                .add(ModBlocks.GRAY_TERRACOTTA_STAIRS)
+                .add(ModBlocks.BLACK_TERRACOTTA_STAIRS)
+                .add(ModBlocks.BROWN_TERRACOTTA_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.CALCITE_WALL);
@@ -41,7 +59,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIGHT_GRAY_WOOL_STAIRS)
                 .add(ModBlocks.GRAY_WOOL_STAIRS)
                 .add(ModBlocks.BLACK_WOOL_STAIRS)
-                .add(ModBlocks.BROWN_WOOL_STAIRS);
+                .add(ModBlocks.BROWN_WOOL_STAIRS)
+
+                .add(ModBlocks.TERRACOTTA_STAIRS)
+                .add(ModBlocks.RED_TERRACOTTA_STAIRS)
+                .add(ModBlocks.ORANGE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.YELLOW_TERRACOTTA_STAIRS)
+                .add(ModBlocks.LIME_TERRACOTTA_STAIRS)
+                .add(ModBlocks.GREEN_TERRACOTTA_STAIRS)
+                .add(ModBlocks.CYAN_TERRACOTTA_STAIRS)
+                .add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.BLUE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.PURPLE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS)
+                .add(ModBlocks.PINK_TERRACOTTA_STAIRS)
+                .add(ModBlocks.WHITE_TERRACOTTA_STAIRS)
+                .add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS)
+                .add(ModBlocks.GRAY_TERRACOTTA_STAIRS)
+                .add(ModBlocks.BLACK_TERRACOTTA_STAIRS)
+                .add(ModBlocks.BROWN_TERRACOTTA_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.CALCITE_SLAB)

@@ -97,6 +97,58 @@ public class ModBlocks {
     public static final Block BROWN_WOOL_STAIRS = registerBlock("brown_wool_stairs",
             new StairsBlock(Blocks.BROWN_WOOL.getDefaultState(),AbstractBlock.Settings.copy(Blocks.RED_WOOL)));
 
+    public static final Block TERRACOTTA_STAIRS = registerBlock("terracotta_stairs",
+            new StairsBlock(Blocks.TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.TERRACOTTA)));
+    public static final Block RED_TERRACOTTA_STAIRS = registerBlock("red_terracotta_stairs",
+            new StairsBlock(Blocks.RED_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.RED_TERRACOTTA)));
+    public static final Block ORANGE_TERRACOTTA_STAIRS = registerBlock("orange_terracotta_stairs",
+            new StairsBlock(Blocks.ORANGE_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Block YELLOW_TERRACOTTA_STAIRS = registerBlock("yellow_terracotta_stairs",
+            new StairsBlock(Blocks.YELLOW_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Block LIME_TERRACOTTA_STAIRS = registerBlock("lime_terracotta_stairs",
+            new StairsBlock(Blocks.LIME_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Block GREEN_TERRACOTTA_STAIRS = registerBlock("green_terracotta_stairs",
+            new StairsBlock(Blocks.GREEN_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Block CYAN_TERRACOTTA_STAIRS = registerBlock("cyan_terracotta_stairs",
+            new StairsBlock(Blocks.CYAN_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_STAIRS = registerBlock("light_blue_terracotta_stairs",
+            new StairsBlock(Blocks.LIGHT_BLUE_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Block BLUE_TERRACOTTA_STAIRS = registerBlock("blue_terracotta_stairs",
+            new StairsBlock(Blocks.BLUE_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Block PURPLE_TERRACOTTA_STAIRS = registerBlock("purple_terracotta_stairs",
+            new StairsBlock(Blocks.PURPLE_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Block MAGENTA_TERRACOTTA_STAIRS = registerBlock("magenta_terracotta_stairs",
+            new StairsBlock(Blocks.MAGENTA_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Block PINK_TERRACOTTA_STAIRS = registerBlock("pink_terracotta_stairs",
+            new StairsBlock(Blocks.PINK_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Block WHITE_TERRACOTTA_STAIRS = registerBlock("white_terracotta_stairs",
+            new StairsBlock(Blocks.WHITE_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_STAIRS = registerBlock("light_gray_terracotta_stairs",
+            new StairsBlock(Blocks.LIGHT_GRAY_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Block GRAY_TERRACOTTA_STAIRS = registerBlock("gray_terracotta_stairs",
+            new StairsBlock(Blocks.GRAY_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Block BLACK_TERRACOTTA_STAIRS = registerBlock("black_terracotta_stairs",
+            new StairsBlock(Blocks.BLACK_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.BLACK_TERRACOTTA)));
+    public static final Block BROWN_TERRACOTTA_STAIRS = registerBlock("brown_terracotta_stairs",
+            new StairsBlock(Blocks.BROWN_TERRACOTTA.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.TERRACOTTA)));
+
     //ADDING BLOCKS TO CREATIVE TABS VVV
     public static void registerModBlocks(){DustysBuilding.LOGGER.info("Registering ModBlocks for " + MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
@@ -137,6 +189,24 @@ public class ModBlocks {
             entries.add(ModBlocks.BLACK_WOOL_STAIRS);
             entries.add(ModBlocks.BROWN_WOOL_SLAB);
             entries.add(ModBlocks.BROWN_WOOL_STAIRS);
+
+            entries.add(ModBlocks.TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.RED_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.LIME_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.PINK_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+            entries.add(ModBlocks.BROWN_TERRACOTTA_STAIRS);
         });
     }
 }
