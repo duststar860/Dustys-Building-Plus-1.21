@@ -1,6 +1,7 @@
 package dusty.dusty_building_plus.block;
 
 import dusty.dusty_building_plus.DustysBuilding;
+import dusty.dusty_building_plus.block.custom.OrientableWithFourTextures;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -23,13 +24,15 @@ public class ModBlocks {
                 new BlockItem(block, new Item.Settings()));
     }
     //REGISTERING THE BLOCKS VVV
+    public static final Block OSSUARY_BLOCK = registerBlock("ossuary_block",
+            new OrientableWithFourTextures(AbstractBlock.Settings.copy(Blocks.BONE_BLOCK)));
+
     public static final Block CALCITE_WALL = registerBlock("calcite_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.CALCITE)));
     public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
             new SlabBlock(SlabBlock.Settings.copy(Blocks.CALCITE)));
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
-            new StairsBlock(Blocks.CALCITE.getDefaultState(),
-                    AbstractBlock.Settings.copy(Blocks.CALCITE)));
+            new StairsBlock(Blocks.CALCITE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CALCITE)));
     //add diorite, andesite, and granite brick suite; calcite brick suite? polished calcite? chiseled calcite with greek meander?
 
     public static final Block RED_WOOL_SLAB = registerBlock("red_wool_slab",
@@ -155,6 +158,7 @@ public class ModBlocks {
             entries.add(ModBlocks.CALCITE_WALL);
             entries.add(ModBlocks.CALCITE_SLAB);
             entries.add(ModBlocks.CALCITE_STAIRS);
+            entries.add(ModBlocks.OSSUARY_BLOCK);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
             entries.add(ModBlocks.RED_WOOL_SLAB);

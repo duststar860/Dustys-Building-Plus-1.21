@@ -1,0 +1,9 @@
+{
+  "parent": "dusty_building_plus:block/orientable_with_four_textures",
+  "textures": {
+    "bottom": "dusty_building_plus:textures/block/ossuary_block_bottom",
+    "front": "dusty_building_plus:textures/block/ossuary_block_front",
+    "side": "dusty_building_plus:textures/block/ossuary_block_side",
+    "top": "dusty_building_plus:textures/block/ossuary_block_top"
+  }
+}

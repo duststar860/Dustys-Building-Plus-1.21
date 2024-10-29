@@ -20,6 +20,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CALCITE_SLAB)
                 .add(ModBlocks.CALCITE_STAIRS)
 
+                .add(ModBlocks.OSSUARY_BLOCK)
+
                 .add(ModBlocks.TERRACOTTA_STAIRS)
                 .add(ModBlocks.RED_TERRACOTTA_STAIRS)
                 .add(ModBlocks.ORANGE_TERRACOTTA_STAIRS)

@@ -1,4 +1,4 @@
-// 1.21	2024-10-15T15:32:02.4845879	Dusty's Building+/Block Loot Tables
+// 1.21	2024-10-28T12:34:08.4746119	Dusty's Building+/Block Loot Tables
 a0b2df8fb9070ae6be76cc9136d859e7e726de37 data\dusty_building_plus\loot_table\blocks\pink_terracotta_stairs.json
 0e0f3c4e01e675a2797a242eef7adb960d335c88 data\dusty_building_plus\loot_table\blocks\gray_wool_stairs.json
 97d8917339df2aaf1b3e96a42ec342eba2e0b6c2 data\dusty_building_plus\loot_table\blocks\gray_terracotta_stairs.json
@@ -23,6 +23,7 @@ bba8187da20f31595edd08d68b30cd9d3d33147e data\dusty_building_plus\loot_table\blo
 e947dbf6bfacf3bf830e75ed9b5e8e25787bb917 data\dusty_building_plus\loot_table\blocks\blue_wool_stairs.json
 3dbbf4e4dae23601d81033f4526b6676aebe56db data\dusty_building_plus\loot_table\blocks\lime_terracotta_stairs.json
 52ad5b570940687bd6a902e5e933eb06a0ab8ed0 data\dusty_building_plus\loot_table\blocks\orange_wool_stairs.json
+5f226c0b6322ea00b0aea4062ba8605a41feba44 data\dusty_building_plus\loot_table\blocks\ossuary_block.json
 60b93fece7a71d853c36c7f76137057246c926f5 data\dusty_building_plus\loot_table\blocks\brown_terracotta_stairs.json
 897067c7ef729dc058c553f564c9613d6465976f data\dusty_building_plus\loot_table\blocks\blue_terracotta_stairs.json
 7cd79ef925099a93894807df3a1768abf28b6711 data\dusty_building_plus\loot_table\blocks\light_gray_terracotta_stairs.json

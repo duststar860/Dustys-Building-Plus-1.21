@@ -1,5 +1,5 @@
-// 1.21	2024-10-15T15:32:02.4825856	Dusty's Building+/Tags for minecraft:block
+// 1.21	2024-10-28T12:34:08.4746119	Dusty's Building+/Tags for minecraft:block
 d896e81596f6183a4a5f53d1a66bb25be4386434 data\minecraft\tags\block\walls.json
 f111f7542896f5cebfbb969808839f17ae3a3c8a data\minecraft\tags\block\slabs.json
 7616ade98790dcded1b5137db72cdef5ad81ef19 data\minecraft\tags\block\stairs.json
-c113fb1a67986bd52b53953ad1f79ec04543f15e data\minecraft\tags\block\mineable\pickaxe.json
+5afcf22fb82056dc140bafb0338182fb0c712a75 data\minecraft\tags\block\mineable\pickaxe.json
