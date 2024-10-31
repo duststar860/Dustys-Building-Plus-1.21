@@ -26,6 +26,8 @@ public class ModBlocks {
     //REGISTERING THE BLOCKS VVV
     public static final Block OSSUARY_BLOCK = registerBlock("ossuary_block",
             new OrientableWithFourTextures(AbstractBlock.Settings.copy(Blocks.BONE_BLOCK)));
+    public static final Block TEMP_OSSUARY = registerBlock("temp_ossuary",
+            new Block(AbstractBlock.Settings.copy(Blocks.BONE_BLOCK)));
 
     public static final Block CALCITE_WALL = registerBlock("calcite_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.CALCITE)));

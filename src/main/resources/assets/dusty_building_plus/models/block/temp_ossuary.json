@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dusty_building_plus:block/ossuary_block_front"
+  }
+}
