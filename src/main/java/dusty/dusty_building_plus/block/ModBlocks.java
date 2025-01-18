@@ -37,6 +37,9 @@ public class ModBlocks {
             new StairsBlock(Blocks.CALCITE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.CALCITE)));
     //add diorite, andesite, and granite brick suite; calcite brick suite? polished calcite? chiseled calcite with greek meander?
 
+    public static final Block SPRUCE_WALL = registerBlock("spruce_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)));
+
     public static final Block RED_WOOL_SLAB = registerBlock("red_wool_slab",
             new SlabBlock(SlabBlock.Settings.copy(Blocks.RED_WOOL)));
     public static final Block RED_WOOL_STAIRS = registerBlock("red_wool_stairs",
@@ -161,6 +164,7 @@ public class ModBlocks {
             entries.add(ModBlocks.CALCITE_SLAB);
             entries.add(ModBlocks.CALCITE_STAIRS);
             entries.add(ModBlocks.OSSUARY_BLOCK);
+            entries.add(ModBlocks.SPRUCE_WALL);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
             entries.add(ModBlocks.RED_WOOL_SLAB);

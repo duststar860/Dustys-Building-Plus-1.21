@@ -22,6 +22,9 @@ public class ModModelProvider extends FabricModelProvider {
             calcitePool.slab(ModBlocks.CALCITE_SLAB);
             calcitePool.stairs(ModBlocks.CALCITE_STAIRS);
 
+        BlockStateModelGenerator.BlockTexturePool spruceWoodPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SPRUCE_WOOD);
+            spruceWoodPool.wall(ModBlocks.SPRUCE_WALL);
+
         BlockStateModelGenerator.BlockTexturePool redWoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_WOOL);
             redWoolPool.slab(ModBlocks.RED_WOOL_SLAB);
             redWoolPool.stairs(ModBlocks.RED_WOOL_STAIRS);
